@@ -105,7 +105,47 @@ body{
 }
 
 /* -------------------------------------------------------DONATIE TODAY END------------------------------------------------------------------ */
+.donate-plan{
+    width: 100%;
+    margin: 80px 0px;
+}
+.plans{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.donation{
+    width: 25%;
+    margin: auto;
 
+    padding: 20px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+.donation img{
+    width:50px;
+    margin-bottom: 20px;
+}
+.donation h4{
+    font-size: 20px;
+    margin: 0px;
+    color: black;
+}
+.donation p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+}
+#food{
+    background-color: rgb(216, 113, 95);
+}
+#shelter{
+    background-color: rgba(238, 98, 74, 0.993);
+}
+#education{
+    background-color: tomato;
+}
 
 /* ------------------------------------------------------- footer start ------------------------------------------------------------------ */
 
