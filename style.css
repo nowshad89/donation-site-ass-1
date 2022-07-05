@@ -1,0 +1,35 @@
+/* font-family: 'Gentium Book Plus', serif;
+font-family: 'Montserrat', sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 80vh;
+    background-image:linear-gradient(to top,rgba(112, 0, 0, 0.644),rgba(255, 255, 255, 0.301)
+    ),url(images/pexels-emre-can-acer-2418435.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content{
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    margin: auto;
+    text-align: center;padding-top: 200px;
+}
+.hero-content h1{
+
+}
+.hero-content P{
+    margin: 20px 0px;
+}
+.hero-content a{
+    background-color: #fc2b06;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ff3b18;
+    color: black;
+    font-weight: 500;
+}
