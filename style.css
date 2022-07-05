@@ -105,6 +105,10 @@ body{
 }
 
 /* -------------------------------------------------------DONATIE TODAY END------------------------------------------------------------------ */
+
+
+
+/* -------------------------------------------------------Our Donate Plan start------------------------------------------------------------------ */
 .donate-plan{
     width: 100%;
     margin: 80px 0px;
@@ -147,6 +151,100 @@ body{
     background-color: tomato;
 }
 
+/* -------------------------------------------------------Our Donate Plan end------------------------------------------------------------------ */
+
+
+
+
+/* -------------------------------------------------------get in touch start------------------------------------------------------------------ */
+
+.form{
+    width: 100%;
+    background-color: black;
+    padding: 30px 0px;
+
+}
+.form-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.form-content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #FF6347;
+}
+.form-content p{
+    color: white;
+}
+.form form{
+    width: 30%;
+    margin:40px auto;
+}
+.form form input{
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 8px 5px;
+    color: black;
+}
+.form form textarea{
+    width: 100%;
+    border: 1px solid black;
+}
+.form form input[type="submit"]{
+    width: 100px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    background-color: #FF6347;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------------------------get in touch end------------------------------------------------------------------ */
+
+
+
+/* -------------------------------------------------------subscribe start------------------------------------------------------------------ */
+.subscribe{
+    margin: 80px 0px;
+}
+.sub-button{
+    text-align: center;
+    background-color: #FF6347;
+    width: 40%;
+    margin: auto;
+    padding: 50px 0px ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black;
+}
+.sub-button input{
+    padding: 7px 5px;
+    width: 50%;
+    border-radius: 10px;
+    color: black;
+}
+.sub-button input[type="submit"]{
+    padding: 7px 20px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* -------------------------------------------------------subscribe end------------------------------------------------------------------ */
+
+
+
+
+
 /* ------------------------------------------------------- footer start ------------------------------------------------------------------ */
 
 footer{
@@ -157,6 +255,7 @@ footer{
 }
 footer p{
     padding-top: 20px;
+    font-size: 15px;
 }
 footer span{
     color: #f04324;
