@@ -1,9 +1,11 @@
 /* font-family: 'Gentium Book Plus', serif;
 font-family: 'Montserrat', sans-serif; */
 body{
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
+/* -------------------------------------------------------HERO START-------------------------------------------------------------------------- */
 .hero{
     height: 80vh;
     background-image:linear-gradient(to top,rgba(112, 0, 0, 0.644),rgba(255, 255, 255, 0.301)
@@ -37,6 +39,68 @@ body{
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 1px 1px 5px #ff3b18;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
+/* -------------------------------------------------------HERO END-------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------DONATIE TODAY START---------------------------------------------------------------- */
+.donate-today{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.donate-today-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.donate-today-content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+.amount{
+    display: flex;
+    margin-bottom: 20px;
+}
+.amount h4{
+    font-size: 20px;
+    margin: auto;
+    border:2px solid black;
+    padding: 30px 30px;
+}
+#two-hundred{
+    border:2px solid #F04324;
+    color: #F04324;
+    background-color: #f0432421;
+}
+.donate-today-content p{
+    margin: 20px 0px 30px 0px;
+    line-height: 25px;
+}
+.donate-today-content input{
+    margin:30PX 0PX;
+    font-size: 16PX;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    text-align: center;
+    width: 80%;
+    letter-spacing: 3px;
+}
+
+.donate-today-content a{
+    background-color: #f04324;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ff3b18;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+/* -------------------------------------------------------DONATIE TODAY END------------------------------------------------------------------ */
